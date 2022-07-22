@@ -66,7 +66,7 @@ var getNumber = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", "number", "", "", {}, true,
+  client.sendRequest("GET", "number", "", "", {}, false,
   function(data, type) {
      console.log("done!");
 console.log(data);
